@@ -12,13 +12,41 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+header {
+    background-color: #616161;
+    min-height: 100px;
+    margin-bottom: 40px;
+}
 
+.header-container {
+    min-height: 100px;
+    max-width: 1024px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span {
+    font-weight: 700;
+}
+nav a{
+    display: inline-block;
+    color: white;
+    padding: 10px 25px;
+    border: 1px solid white;
+    text-decoration: none;
+}
 .col {
     width: 30%;
     background-color: blueviolet;
     margin-bottom: 40px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease-in-out;
 }
-
+.col:hover {
+    box-shadow: 0 0 10px 10px rgba(108, 53, 202, 0.4);
+}
 .col img {
     width: 100%;
     height: auto;
@@ -31,7 +59,7 @@ body {
     line-height: 1.25rem;
 }
 
-.col p::first-line {
+.col p::first-line{
     font-weight: 700;
 }
 
