@@ -1,10 +1,10 @@
 /* Global View aka Desktop View*/
-/* body {
-    
-} */
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap');
+body {
+    font-family: 'Asap', sans-serif;
+}
 
 .container {
-    background-color: blueviolet;
     min-height: 500px;
     max-width: 1024px;
     margin: 0 auto;
@@ -15,9 +15,24 @@
 
 .col {
     width: 30%;
-    background-color: violet;
-    min-height: 200px;
+    background-color: blueviolet;
     margin-bottom: 40px;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+}
+
+.col p {
+    color: white;
+    font-size: 0.825rem;
+    padding: 10px 25px;
+    line-height: 1.25rem;
+}
+
+.col p::first-line {
+    font-weight: 700;
 }
 
 .hide-desktop-only {
