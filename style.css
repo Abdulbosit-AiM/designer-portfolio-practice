@@ -27,8 +27,12 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+a {
+    color: white;
+}
 span {
     font-weight: 700;
+    letter-spacing: 1px;
 }
 nav a{
     display: inline-block;
