@@ -4,19 +4,13 @@ body {
     font-family: 'Asap', sans-serif;
 }
 
-.container {
-    min-height: 500px;
-    max-width: 1024px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+/* HEADER PART */
 header {
     background-color: #616161;
     min-height: 100px;
     margin-bottom: 40px;
-    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
 }
 
 .header-container {
@@ -45,6 +39,18 @@ nav a{
     border: 1px solid white;
     text-decoration: none;
 }
+
+/* MAIN PART */
+main {
+    min-height: 500px;
+    max-width: 1024px;
+    padding-top: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .col {
     width: 30%;
     background-color: blueviolet;
@@ -82,6 +88,24 @@ nav a{
 
     .hide-desktop-only {
         display: block;
+    }
+
+    header {
+        position: relative;
+    }
+    .header-container {
+        display: block;
+        text-align: center;
+    }
+    main {
+        padding-top: 0;
+    }
+    nav a {
+        display: block;
+    }
+
+    .logo {
+        padding: 40px 0;
     }
 }
 
