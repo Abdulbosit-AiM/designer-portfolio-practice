@@ -16,6 +16,7 @@ header {
     background-color: #616161;
     min-height: 100px;
     margin-bottom: 40px;
+    background-attachment: fixed;
 }
 
 .header-container {
