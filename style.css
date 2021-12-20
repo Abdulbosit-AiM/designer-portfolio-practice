@@ -100,7 +100,8 @@ main {
         position: relative;
     }
     .header-container {
-        display: block;
+        display: flex;
+        padding: 0 5%;
         text-align: center;
     }
     main {
@@ -112,6 +113,7 @@ main {
     }
     nav a {
         display: block;
+
     }
 
     .logo {
@@ -128,13 +130,21 @@ main {
         border: 1px solid white;
         text-decoration: none;
         display: block;
-        background-color: blueviolet;
+        background-color: #616161;
+        
     }
     
     .mob-nav {
         display: none;
         position: absolute;
+        right: 0;
+        width: 100%;
     }
+    .mob-nav a:hover {
+        background-color: blueviolet;
+        transition-duration: 0.5s;
+    }
+
 
 }
 
